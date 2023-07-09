@@ -8,8 +8,11 @@ su3 = Startup( 'Kitten Mittens', 'Charlie', 'www.kittenmittens.com' )
 su4 = Startup( 'Wolf Cola', 'Frank', 'www.wolfcola.com' )
 
 
-# vc1 = VentureCapitalist( 'Peter Gregory', 100000000 )
-# fr1 = FundingRound( s1, vc1, 'Pre-Seed', 200000.99 )
+vc1 = VentureCapitalist( 'Peter Gregory', 100000000 )
+vc2 = VentureCapitalist( 'Russ Hanniman', 1000000000 )
+
+
+fr1 = FundingRound( su1, vc1, 'Pre-Seed', 200000.99 )
 
 
 
