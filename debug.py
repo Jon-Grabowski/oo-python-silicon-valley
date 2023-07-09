@@ -13,6 +13,10 @@ vc2 = VentureCapitalist( 'Russ Hanniman', 1000000000 )
 
 
 fr1 = FundingRound( su1, vc1, 'Pre-Seed', 200000.99 )
+fr2 = FundingRound( su1, vc2, 'Pre-Seed', 500000 )
+fr3 = FundingRound( su2, vc2, 'Pre-Seed', 800000 )
+fr4 = FundingRound( su1, vc1, 'Series-B', 400000.01 )
+
 
 
 
